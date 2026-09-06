@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Khorasan Map — ETS2 map expansion</title>
+<meta name="description" content="Khorasan Map — an Euro Truck Simulator 2 map expansion covering North Khorasan, Iran: Shirvan, Esfarayen and Road 87.">
+<link rel="icon" href="Khorasan_Map_Logo.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <img src="Khorasan_Map_Logo.png" alt="Khorasan Map logo">
+      <span>Khorasan Map</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">☰</button>
+
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="fa" aria-pressed="false">فارسی</button>
+    </div>
+
+    <nav class="nav-links">
+      <a href="index.html" class="is-active" data-i18n="nav.home">Home</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="gallery.html" data-i18n="nav.gallery">Gallery</a>
+      <a href="download.html" data-i18n="nav.download">Download</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ---------- hero ---------- -->
+  <section class="hero">
+    <div class="wrap">
+      <img class="hero-logo" src="Khorasan_Map_Logo.png" alt="Khorasan Map">
+      <!-- kept for the document outline / screen readers, not shown -->
+      <h1 class="sr-only">Khorasan Map</h1>
+      <p class="lead lead--hero" data-i18n="home.lead">
+        A map expansion for Euro Truck Simulator 2 recreating the highlands of North Khorasan, Iran — its cities, its roads and the landscape in between.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn--primary" href="download.html" data-i18n="home.cta.download">Download</a>
+        <a class="btn btn--ghost" href="gallery.html" data-i18n="home.cta.gallery">View gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- region strip ---------- -->
+  <section class="stats">
+    <div class="stat"><b data-i18n="stat.region.value">North Khorasan</b><span data-i18n="stat.region">Region</span></div>
+    <div class="stat"><b data-i18n="stat.status.value">In development</b><span data-i18n="stat.status">Status</span></div>
+  </section>
+
+  <!-- ---------- community band ---------- -->
+  <section class="section">
+    <div class="wrap">
+      <div class="community">
+        <div class="community-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M20.3 4.9A19.8 19.8 0 0 0 15.4 3.4l-.2.4a13.6 13.6 0 0 1 3 1.4 15.6 15.6 0 0 0-12.4 0 13.6 13.6 0 0 1 3-1.4l-.2-.4A19.8 19.8 0 0 0 3.7 4.9C.9 9 .1 13.1.5 17.1a19.9 19.9 0 0 0 6 3l.7-1.2c-1-.4-1.9-.9-2.7-1.5l.6-.4a14.2 14.2 0 0 0 13.8 0l.6.4c-.8.6-1.7 1.1-2.7 1.5l.7 1.2a19.9 19.9 0 0 0 6-3c.5-4.6-.7-8.7-3.2-12.2ZM8.3 14.7c-1.2 0-2.1-1.1-2.1-2.4S7.1 9.9 8.3 9.9s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm7.4 0c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg>
+        </div>
+        <div class="community-body">
+          <h3 data-i18n="home.community.title">Join the community</h3>
+          <p data-i18n="home.community.body">Follow the development, report issues and see new areas before they are released.</p>
+        </div>
+        <a class="btn btn--primary" href="https://discord.gg/s39uACpa3Z" target="_blank" rel="noopener noreferrer" data-i18n="home.community.cta">Join Discord</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- about band ---------- -->
+  <section class="section section--alt">
+    <div class="wrap about-grid">
+      <div>
+        <span class="eyebrow" data-i18n="home.built.eyebrow">About</span>
+        <h2 data-i18n="home.built.title">Built by modders, for drivers</h2>
+        <ul class="about-list">
+          <li>
+            <span class="about-mark">01</span>
+            <div>
+              <b data-i18n="home.built.1.title">Independent</b>
+              <span data-i18n="home.built.1.body">A community project, developed on its own schedule and released free.</span>
+            </div>
+          </li>
+          <li>
+            <span class="about-mark">02</span>
+            <div>
+              <b data-i18n="home.built.2.title">Built from references</b>
+              <span data-i18n="home.built.2.body">Cities and roads modelled on the real layout of North Khorasan.</span>
+            </div>
+          </li>
+          <li>
+            <span class="about-mark">03</span>
+            <div>
+              <b data-i18n="home.built.3.title">Still growing</b>
+              <span data-i18n="home.built.3.body">New cities and connections are added with every update.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="about-visual">
+        <img src="shirvan2.png" alt="Shirvan city" loading="lazy" data-i18n-attr="alt:cap.shirvan.2">
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- FAQ ---------- -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head section-head--center">
+        <span class="eyebrow" data-i18n="home.faq.eyebrow">FAQ</span>
+        <h2 data-i18n="home.faq.title">Frequently asked questions</h2>
+      </div>
+
+      <!-- TODO: fill in the real answers once the first release is out -->
+      <div class="faq">
+        <details>
+          <summary data-i18n="faq.1.q">What is Khorasan Map?</summary>
+          <p class="answer" data-i18n="faq.1.a">A map expansion for Euro Truck Simulator 2 that recreates North Khorasan in Iran, including its cities and main roads.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.2.q">Which areas are included?</summary>
+          <p class="answer" data-i18n="faq.2.a">Shirvan, Esfarayen and Road 87 are currently built or under construction. See the coverage map above for the full picture.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.3.q">Which game version and DLC do I need?</summary>
+          <p class="answer" data-i18n="faq.3.a">The supported game version and the required DLC will be confirmed with the first release. Check the download page for the details.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.4.q">How do I install it?</summary>
+          <p class="answer" data-i18n="faq.4.a">Copy the .scs files into your ETS2 mod folder and enable them in Mod Manager. The download page has the full steps and the load order.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- final CTA ---------- -->
+  <section class="cta-band">
+    <div class="wrap">
+      <h2 data-i18n="home.cta.title">Ready to hit the road?</h2>
+      <p data-i18n="home.cta.body">Grab the latest build and start driving through North Khorasan.</p>
+      <div class="hero-actions">
+        <a class="btn btn--primary" href="download.html" data-i18n="home.cta.download">Download</a>
+        <a class="btn btn--ghost" href="gallery.html" data-i18n="home.cta.gallery">View gallery</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="Khorasan_Map_Logo.png" alt="Khorasan Map">
+        <p data-i18n="footer.tagline">An Euro Truck Simulator 2 map expansion covering North Khorasan, Iran.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.col.map">Map</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.col.get">Get the mod</h4>
+        <ul>
+          <li><a href="download.html" data-i18n="nav.download">Download</a></li>
+          <li><a href="download.html#install" data-i18n="dl.install.title">Installation</a></li>
+          <li><a href="index.html#faq" data-i18n="nav.faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.col.community">Community</h4>
+        <ul>
+          <li><a href="https://discord.gg/s39uACpa3Z" target="_blank" rel="noopener noreferrer" data-i18n="footer.discord">Discord</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year">2026</span> Khorasan Map</p>
+      <p data-i18n="footer.disclaimer">Not affiliated with SCS Software. Euro Truck Simulator 2 is a trademark of SCS Software.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
